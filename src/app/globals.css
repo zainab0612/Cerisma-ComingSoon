@@ -18,11 +18,13 @@
 
 body {
   background-image: url(../assets/images/Background.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+
+
 }
 .logo {
   background-image: url(../assets//images/Group\ 120.png);
-  background-repeat: no-repeat;
-  background-position: center;
   width: 465px;
   height: 166px;
   object-fit: contain;

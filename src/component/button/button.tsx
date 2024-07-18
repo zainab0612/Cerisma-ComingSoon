@@ -5,18 +5,21 @@ const button = () => {
         <>
             <Button sx={{
                 width: {
+                    xs: 350,
                     sm: 480,
                     md: 580,
                     lg: 680,
                     xl: 904,
                 },
                 height: {
+                    xs: 70,
                     sm: 90,
                     md: 110,
                     lg: 140,
                     xl: 160,
                 },
                 fontSize: {
+                    xs: '1.5em',
                     sm: '1.8em',
                     md: '2.3em',
                     lg: '2.6em',

@@ -52,6 +52,13 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 flexDirection: "column",
                                 textAlign: "center",
                                 padding: "8px",
+                                fontSize: {
+                                    xs: '1rem',
+                                    sm: '1.1rem',
+                                    md: '1.2rem',
+                                    lg: '1.3rem',
+                                    xl: '1.4rem',
+                                }
                             }}>
                                 <Typography variant="h5" >
                                     {timeLeft.days}
@@ -73,6 +80,13 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 flexDirection: "column",
                                 textAlign: "center",
                                 padding: "8px",
+                                fontSize: {
+                                    xs: '1rem',
+                                    sm: '1.1rem',
+                                    md: '1.2rem',
+                                    lg: '1.3rem',
+                                    xl: '1.4rem',
+                                }
                             }}>
                                 <Typography variant="h5" >
                                     {timeLeft.hours}
@@ -94,6 +108,13 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 flexDirection: "column",
                                 textAlign: "center",
                                 padding: "8px",
+                                fontSize: {
+                                    xs: '1rem',
+                                    sm: '1.1rem',
+                                    md: '1.2rem',
+                                    lg: '1.3rem',
+                                    xl: '1.4rem',
+                                }
                             }}>
                                 <Typography variant="h5" >
                                     {timeLeft.minutes}
@@ -105,7 +126,10 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                         </Grid>
                         <Grid item xs={1}>
                             <Typography sx={{
-                                padding: "6px",
+                                padding: {
+                                    xs: '0px',
+                                    lg: '6px',
+                                },
                                 fontSize: "30px"
                             }}>:</Typography>
                         </Grid>
@@ -115,6 +139,13 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 flexDirection: "column",
                                 textAlign: "center",
                                 padding: "8px",
+                                fontSize: {
+                                    xs: '1rem',
+                                    sm: '1.1rem',
+                                    md: '1.2rem',
+                                    lg: '1.3rem',
+                                    xl: '1.4rem',
+                                }
                             }}>
                                 <Typography variant="h5" >
                                     {timeLeft.seconds}
