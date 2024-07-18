@@ -20,16 +20,10 @@ body {
   background-image: url(../assets/images/Background.png); 
   background-repeat: no-repeat;
   background-position: center;
-
+  background-size: cover;
 
 }
-.logo {
-  background-image: url(../assets//images/Group\ 120.png);
-  width: 465px;
-  height: 166px;
-  object-fit: contain;
-  margin-right: 30px;
-}
+
 
 /* @media only screen and (max-width: 580px) {
 
