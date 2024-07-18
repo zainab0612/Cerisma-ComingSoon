@@ -3,9 +3,6 @@ import { Typography, Box } from "@mui/joy";
 import CountdownTimer from "@/component/timer/timer";
 import Button from "@/component/button/button";
 import Logo from "@/component/logo/logo";
-import Image from 'next/image';
-import Background from "../assets/images/Background.png"
-
 
   const Home = () => {
 
@@ -32,15 +29,15 @@ import Background from "../assets/images/Background.png"
             textShadow: "0 3px 10px rgba(0, 0, 0, 0.78)",
             color: "white",
             margin: {
-              xs: '65px -23px 15px -22px',
+              xs: '55px -23px 15px -22px',
               sm: '55px -23px 15px -22px',
               md: '55px -23px 15px -22px',
               lg: '55px -23px 15px -22px',
-              xl: '30px -23px 10px -22px',
+              xl: '65px -23px 10px -22px',
               
             },
             lineHeight: "2",
-          }} className="text">Something great is on the way</Typography>
+          }}>Something great is on the way</Typography>
         </div>
 
         <div>
