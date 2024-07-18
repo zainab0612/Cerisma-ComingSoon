@@ -29,7 +29,7 @@ body {
   margin-right: 30px;
 }
 
-@media only screen and (max-width: 580px) {
+/* @media only screen and (max-width: 580px) {
 
   .btn {
     width: 380px;
@@ -95,4 +95,4 @@ body {
   }
 
 
-}
+} */

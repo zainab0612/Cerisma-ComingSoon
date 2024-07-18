@@ -36,12 +36,16 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
         <>
             <Box sx={{
                 margin: "30px",
-                color: "white"
+                color: "white",
+                display: "flex",
             }}>
-                <Box sx={{display:"flex", 
-                        flexWrap: "nowrap",
+                <Box sx={{
+                   
                 }}>
-                    <Grid container >
+                    <Grid container xs={12} md={12} lg={12} xl={12} sx={{
+                        display: 'flex',
+                        flexWrap: 'nowrap'
+                    }}>
                         <Grid item xs={3} md={3} lg={3}>
                             <Box sx={{
                                 display: "flex",
@@ -60,11 +64,11 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                         <Grid item xs={1}>
                             <Typography sx={{
                                 padding: "6px",
-                                fontSize:"30px"
+                                fontSize: "30px"
                             }}>:</Typography>
                         </Grid>
-                        <Grid item xs={3}>
-                        <Box sx={{
+                        <Grid item xs={3} md={3} lg={3}>
+                            <Box sx={{
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",
@@ -81,11 +85,11 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                         <Grid item xs={1}>
                             <Typography sx={{
                                 padding: "6px",
-                                fontSize:"30px"
+                                fontSize: "30px"
                             }}>:</Typography>
                         </Grid>
-                        <Grid item xs={3}>
-                        <Box sx={{
+                        <Grid item xs={3} md={3} lg={3}>
+                            <Box sx={{
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",
@@ -102,11 +106,11 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                         <Grid item xs={1}>
                             <Typography sx={{
                                 padding: "6px",
-                                fontSize:"30px"
+                                fontSize: "30px"
                             }}>:</Typography>
                         </Grid>
-                        <Grid item xs={3}>
-                        <Box sx={{
+                        <Grid item xs={3} md={3} lg={3}>
+                            <Box sx={{
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",

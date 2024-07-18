@@ -4,9 +4,24 @@ const button = () => {
     return (
         <>
             <Button sx={{
-                width: "904px",
-                height: "163px",
-                fontSize: '4.5rem',
+                width: {
+                    sm: 480,
+                    md: 580,
+                    lg: 680,
+                    xl: 904,
+                },
+                height: {
+                    sm: 90,
+                    md: 110,
+                    lg: 140,
+                    xl: 160,
+                },
+                fontSize: {
+                    sm: '1.8em',
+                    md: '2.3em',
+                    lg: '2.6em',
+                    xl: '4.5em',
+                },
                 color: "white",
                 textShadow: "2px 2px 5px black",
                 borderRadius: "100px",
