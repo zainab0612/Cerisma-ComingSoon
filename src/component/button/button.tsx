@@ -5,7 +5,7 @@ const button = () => {
         <>
             <Button sx={{
                 width: {
-                    xs: 350,
+                    xs: 340,
                     sm: 480,
                     md: 580,
                     lg: 680,
