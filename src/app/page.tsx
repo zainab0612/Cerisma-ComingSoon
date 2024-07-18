@@ -3,15 +3,19 @@ import { Typography, Box } from "@mui/joy";
 import CountdownTimer from "@/component/timer/timer";
 import Button from "@/component/button/button";
 import Logo from "@/component/logo/logo";
+import Image from 'next/image';
+import Background from "../assets/images/Background.png"
 
-export default function Home() {
+
+  const Home = () => {
 
   const targetDate = new Date('08/12/2024 23:59:59');
+  
   return (
     <Box sx={{
-      overflow: 'hidden'
+      overflow: 'hidden',
     }}>
-      <main className="flex min-h-screen flex-col items-center justify-center p-20">
+      <main className="flex min-h-screen flex-col items-center justify-center p-16">
         <div className="logo">
           <Logo />
         </div>
@@ -22,20 +26,20 @@ export default function Home() {
               sm: '1.5em',
               md: '1.8em',
               lg: '2.6em',
-              xl: '3.6em'
+              xl: '3.0em'
             },
             fontWeight: "200",
             textShadow: "0 3px 10px rgba(0, 0, 0, 0.78)",
             color: "white",
             margin: {
-              xs: '66px -23px 20px -22px',
-              sm: '66px -23px 20px -22px',
-              md: '23px -23px 20px -22px',
-              lg: '23px -23px 20px -22px',
-              xl: '66px -23px 20px -22px',
+              xs: '65px -23px 15px -22px',
+              sm: '55px -23px 15px -22px',
+              md: '55px -23px 15px -22px',
+              lg: '55px -23px 15px -22px',
+              xl: '30px -23px 10px -22px',
               
             },
-            lineHeight: "2.5",
+            lineHeight: "2",
           }} className="text">Something great is on the way</Typography>
         </div>
 
@@ -49,3 +53,4 @@ export default function Home() {
     </Box>
   );
 }
+export default Home

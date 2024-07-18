@@ -51,16 +51,10 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",
-                                padding: "8px",
-                                fontSize: {
-                                    xs: '1rem',
-                                    sm: '1.1rem',
-                                    md: '1.2rem',
-                                    lg: '1.3rem',
-                                    xl: '1.4rem',
-                                }
+                                padding: "5px",
+                                fontSize: '1rem'
                             }}>
-                                <Typography variant="h5" >
+                                <Typography variant="h6" >
                                     {timeLeft.days}
                                 </Typography>
                                 <Typography variant="body2">
@@ -79,16 +73,10 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",
-                                padding: "8px",
-                                fontSize: {
-                                    xs: '1rem',
-                                    sm: '1.1rem',
-                                    md: '1.2rem',
-                                    lg: '1.3rem',
-                                    xl: '1.4rem',
-                                }
+                                padding: "5px",
+                                fontSize: '1rem'
                             }}>
-                                <Typography variant="h5" >
+                                <Typography variant="h6" >
                                     {timeLeft.hours}
                                 </Typography>
                                 <Typography variant="body2" >
@@ -107,16 +95,11 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",
-                                padding: "8px",
-                                fontSize: {
-                                    xs: '1rem',
-                                    sm: '1.1rem',
-                                    md: '1.2rem',
-                                    lg: '1.3rem',
-                                    xl: '1.4rem',
-                                }
+                                padding: "5px",
+                                fontSize: '1rem'
+                                
                             }}>
-                                <Typography variant="h5" >
+                                <Typography variant="h6" >
                                     {timeLeft.minutes}
                                 </Typography>
                                 <Typography variant="body2" >
@@ -126,10 +109,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                         </Grid>
                         <Grid item xs={1}>
                             <Typography sx={{
-                                padding: {
-                                    xs: '0px',
-                                    lg: '6px',
-                                },
+                                padding: '6px',
                                 fontSize: "30px"
                             }}>:</Typography>
                         </Grid>
@@ -138,16 +118,10 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 display: "flex",
                                 flexDirection: "column",
                                 textAlign: "center",
-                                padding: "8px",
-                                fontSize: {
-                                    xs: '1rem',
-                                    sm: '1.1rem',
-                                    md: '1.2rem',
-                                    lg: '1.3rem',
-                                    xl: '1.4rem',
-                                }
+                                padding: "5px",
+                                fontSize: '1rem'
                             }}>
-                                <Typography variant="h5" >
+                                <Typography variant="h6" >
                                     {timeLeft.seconds}
                                 </Typography>
                                 <Typography variant="body2" >
