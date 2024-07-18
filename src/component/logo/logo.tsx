@@ -8,7 +8,7 @@ const logo = () => {
             <Box sx={{
                 width: {
                     xs: 200,
-                    sm: 270,
+                    sm: 240,
                     md: 280,
                     lg: 330,
                     xl: 350
@@ -21,11 +21,11 @@ const logo = () => {
                     xl: 120
                 },
                 marginLeft: {
-                    xs: '-20px',
+                    xs: '0px',
                     sm: '-20px',
                     md: '-20px',
                     lg: '-40px',
-                    xl: '-60px'
+                    xl: '-55px'
                 },
             }}>
                 <Image src={logoImg} alt="logo" />
