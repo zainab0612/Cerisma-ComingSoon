@@ -18,12 +18,13 @@ import Logo from "@/component/logo/logo";
         </div>
         <div>
           <Typography sx={{
+      
             fontSize: {
               xs: '1.0em',
               sm: '1.5em',
               md: '1.8em',
               lg: '2.6em',
-              xl: '3.0em'
+              xl: '2.8em'
             },
             fontWeight: "200",
             textShadow: "0 3px 10px rgba(0, 0, 0, 0.78)",
