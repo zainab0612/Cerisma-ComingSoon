@@ -18,6 +18,7 @@ import Logo from "@/component/logo/logo";
         </div>
         <div>
           <Typography sx={{
+      
             fontSize: {
               xs: '1.0em',
               sm: '1.5em',
