@@ -4,10 +4,10 @@ import CountdownTimer from "@/component/timer/timer";
 import Button from "@/component/button/button";
 import Logo from "@/component/logo/logo";
 
-  const Home = () => {
+const Home = () => {
 
-  const targetDate = new Date('08/19/2024 22:35:59');
-  
+  const targetDate = new Date('11/01/2024 22:59:59');
+
   return (
     <Box sx={{
       overflow: 'hidden',
@@ -18,7 +18,7 @@ import Logo from "@/component/logo/logo";
         </div>
         <div>
           <Typography sx={{
-      
+
             fontSize: {
               xs: '1.0em',
               sm: '1.5em',
@@ -35,7 +35,7 @@ import Logo from "@/component/logo/logo";
               md: '55px -23px 15px -22px',
               lg: '55px -23px 15px -22px',
               xl: '65px -23px 10px -22px',
-              
+
             },
             lineHeight: "2",
           }}>Something great is on the way</Typography>

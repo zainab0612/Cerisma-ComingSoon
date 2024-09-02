@@ -40,7 +40,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                 display: "flex",
             }}>
                 <Box sx={{
-                   
+
                 }}>
                     <Grid container xs={12} md={12} lg={12} xl={12} sx={{
                         display: 'flex',
@@ -97,7 +97,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
                                 textAlign: "center",
                                 padding: "5px",
                                 fontSize: '1rem'
-                                
+
                             }}>
                                 <Typography variant="h6" >
                                     {timeLeft.minutes}
