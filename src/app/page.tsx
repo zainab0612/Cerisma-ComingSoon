@@ -6,7 +6,7 @@ import Logo from "@/component/logo/logo";
 
 const Home = () => {
 
-  const targetDate = new Date('11/01/2024 22:59:59');
+  const targetDate = new Date('02/01/2025 22:59:59');
 
   return (
     <Box sx={{
