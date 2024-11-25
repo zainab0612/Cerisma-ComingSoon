@@ -1,6 +1,6 @@
 import { Box } from "@mui/joy";
 import Image from 'next/image';
-import logoImg from '../../assets/images/group-120.png';
+import logoImg from '../../assets/images/Logo.png';
 
 const logo = () => {
     return (
