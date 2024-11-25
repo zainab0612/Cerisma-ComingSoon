@@ -1,8 +1,7 @@
 import { Box } from "@mui/joy";
-import Image from 'next/image';
-import logoImg from '../../assets/images/Logo.png';
+import Image from "next/image";
 
-const logo = () => {
+export const Logo = () => {
     return (
         <>
             <Box sx={{
@@ -28,10 +27,15 @@ const logo = () => {
                     xl: '-55px'
                 },
             }}>
-                <Image src={logoImg} alt="logo" />
+                <Image
+                    src="https://cerismapk.com/_next/static/media/group-120.ce830838.png"
+                    alt="logo"
+                    style={{
+                        width: '100%',
+                        height: 'auto'
+                    }}
+                />
             </Box>
         </>
-    )
+    );
 }
-
-export default logo

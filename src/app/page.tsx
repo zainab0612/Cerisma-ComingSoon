@@ -2,7 +2,7 @@
 import { Typography, Box } from "@mui/joy";
 import CountdownTimer from "@/component/timer/timer";
 import Button from "@/component/button/button";
-import Logo from "@/component/logo/logo";
+import { Logo } from "@/component/logo/logo";
 
 const Home = () => {
 
