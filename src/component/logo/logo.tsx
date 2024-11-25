@@ -1,5 +1,4 @@
 import { Box } from "@mui/joy";
-import Image from "next/image";
 
 export const Logo = () => {
     return (
@@ -27,7 +26,7 @@ export const Logo = () => {
                     xl: '-55px'
                 },
             }}>
-                <Image
+                <img
                     src="https://cerismapk.com/_next/static/media/group-120.ce830838.png"
                     alt="logo"
                     style={{
